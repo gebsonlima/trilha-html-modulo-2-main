@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        
+        table thead th {
+            background-color:  rgb(255, 166, 0);
+            color: rgb(0, 0, 0);
+        }
+        table tfoot td {
+            background-color: beige;
+        }
+        table tbody tr:nth-child(even) td {
+            background-color:  bisque;
+        }
+
+        table tbody tr:hover td {
+            background-color: rgb(255, 166, 0);
+            color: beige;
+            cursor: pointer;
+        }
+        .container {
+            text-align: Center;
+        }
+        .SobreNos {
+        background-color: bisque;
+        padding: 15px;
+        text-align: center;
+        display: block;
+        }
+        .Endereço {
+            background-color: rgb(200, 255, 255);
+            padding: 3px;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+        
+            
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                
+                <li><a href="About.html">Sobre a clínica</a></li>
+                
+                <li><a href="Nossos horários.html">Horário de Atendimento</a></li>
+                
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="Imagens/imagem header.png" width="1000" hover>
+
+                 <h3>Clinica Médica Gebson</h3>
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+                <!--Aqui Começará o meu Content-->
+            <div class="content">    
+                
+            <h3>Sobre nossa Clínica<br>
+            <DIV style="background-color: rgb(255, 237, 209); padding: 3px;">
+            <h4>
+                A ONG SOS DENTAL é uma organização não-governamental visando proporcionar atendimento odontológico para as populações pobres. Esta ação só é possível porque a ONG SOS Dental tem um consultório portátil que permite que o paciente seja atendido em qualquer local. Isso significa que nós não servimos apenas as comunidades, mas também as pessoas que tem dificuldades de acesso ao atendimento odontológico, como crianças e adolescentes em internatos, clínicas de reabilitação, creches, escolas, casas de apoio, instituições de caridade e grupos com dificuldades de locomoção.
+
+                Já atendemos em diversos lugares como: Rio de Janeiro: Comunidade do Arará ; Pavão-Pavãozinho; Complexo do Alemão – Morro do Adeus; Favela da Maré; Comunidade do Acari; Morro da Caixa D’ água; Comunidades de São Januário (Cidadania Vascaína); Rocinha; Jacarezinho; Guaratiba. Amazonas: Comunidade do Rio Purus. Também já mandamos nossa equipe pra outros países, tais são: Haiti, Honduras e Cabo Verde.
+            
+            </h4>
+        </DIV>   
+                </h3>
+
+
+                    <div class="container">
+                        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Rua%20Jose%20Gomes%20Filho,%20%2010%20-%20Casa+(Clinica%20M%C3%A9dica%20Gebson)&amp;t=h&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe>
+                    </div>
+                
+                    <table align="Center">
+                        <form onsubmit="" method="get">                    
+                            <fieldset style="padding: 10px;">
+                                        <legend>Entre em Contato</legend>
+                                        <div class="row">
+                                            <label>Nome:</label><input type="text">
+                                            <label>E-mail:</label><input type="email">
+                                        </div>
+                                    
+                                <div>
+                                    <label>Assunto:</label><input type="text">
+                                </div>
+                                <div>
+                                        <label>Mensagem:</label>
+                                        <textarea name="Mensagem" id="mensagem" cols="50" rows="10" style="width: 300px;"></textarea><br>
+                                </div>
+                                </td>
+                            </fieldset> 
+                                <button type="reset">Limpar</button>
+                                <button type="submit">Enviar Mensagem</button>
+                                            
+                        
+                        </form>            
+                                
+    
+                </table>
+            
+                <h3 id="Contatos">Contatos:</h3>
+                
+                <div class="Endereço">
+                    <small><a href="index.html">Voltar</a><br></small>
+                    <h4 id="TextEnd">End.: Rua José Gomes Filho, 10 - Surubim/PE<br>
+                    81 98286-1478
+                    </h4>
+                    </div>
+
+                    <!--Aqui Será o Rodapé-->
+            <div class="footer">
+
+                
+                        <h5 style="text-align: center;" id="Contatos">Feito por Gebson Silva</h5>
+               
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
